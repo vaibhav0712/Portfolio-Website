@@ -1,0 +1,24 @@
+/******** hero *********/
+
+@media (max-width: 728px) {
+  .hero {
+    color: red;
+    padding: 15% 3%;
+  }
+  .hello {
+    padding-top: 5rem;
+  }
+  .info {
+    padding-top: 7rem;
+  }
+}
+
+/* *** about me *** */
+@media (max-width: 728px) {
+  .about-row {
+    padding: 5%;
+  }
+  .col-md-7 {
+    padding-top: 1rem;
+  }
+}

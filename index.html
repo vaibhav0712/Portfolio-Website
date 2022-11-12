@@ -14,9 +14,13 @@
     />
 
     <!-- css link -->
+    <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="skill.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="media.css" />
 
     <!-- font awsome -->
     <script
@@ -34,6 +38,8 @@
   </head>
 
   <body>
+    <!------------- Navbar ------------->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">THE</a>
       <button
@@ -63,6 +69,7 @@
       </div>
     </nav>
 
+    <!------------- hero ------------->
     <section class="hero">
       <div class="container-fluid">
         <h1 class="hello">Hello !</h1>
@@ -73,13 +80,14 @@
       </div>
     </section>
 
+    <!------------- about ------------->
     <section class="about">
       <div class="row about-row">
-        <div class="col-md-5 img-div">
+        <div class="col-md-5 col-sm-12 img-div">
           <img src="/images/pr.png" class="about-img" alt="" />
         </div>
         <div
-          class="col-md-7 about-rt-div"
+          class="col-md-7 col-sm-12 about-rt-div"
           data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
           data-aos-easing="linear"
@@ -105,8 +113,9 @@
         </div>
       </div>
     </section>
+
+    <!------------- project ------------->
     <p
-      style="background-color: #f1f1f1"
       class="pro-title"
       data-aos="fade-right"
       data-aos-easing="linear"
@@ -180,6 +189,8 @@
       </div>
     </section>
 
+    <!------------- skill ------------->
+
     <section id="skill">
       <div class="container-fluid">
         <div class="row">
@@ -215,6 +226,8 @@
         </div>
       </div>
     </section>
+
+    <!------------- contact ------------->
 
     <section class="contact">
       <div class="contact-div">
@@ -265,6 +278,7 @@
       </div>
     </section>
 
+    <!------------- footer ------------->
     <footer>
       <div class="medial-log">
         <i class="fa-brands l-1 fa-instagram"></i>
@@ -277,8 +291,8 @@
     </footer>
 
     <!-- Bootstrap script -->
-    <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="script.js"></script>
     <script>
       var type = new Typed(".typing-text", {
         strings: ["a Programmer.", "a Student.", "a learner. ", "a explorer."],

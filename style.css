@@ -1,7 +1,9 @@
 body {
   font-family: "Raleway", sans-serif;
 }
-/* hero */
+
+/********* hero *********/
+
 .hero {
   background-image: url("images/hero.jpg");
   background-repeat: no-repeat;
@@ -15,126 +17,11 @@ body {
   text-align: center;
   padding: 7%;
 }
-.pro-title {
-  margin: 0px;
-  /* padding-top: 1rem; */
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 400;
-  letter-spacing: 4px;
-}
-.img-pro {
-  /* border-radius: 100%; */
-  width: 100px;
-  height: 100px;
-  /* margin-top: 1rem; */
-  margin-right: 2rem;
-}
-.carousel-item {
-  /* background-color: #f1f1f1; */
-  padding: 3% 15% 7%;
-  text-align: center;
-}
 
-/* footer and skill */
+/****** About Me *********/
 
-.skill-bar div {
-  color: #eee;
-  font-size: 1rem;
-  font-weight: bold;
-}
-.skill-bar p {
-  letter-spacing: 2px;
-  line-height: 1.8;
-  margin-top: 1rem;
-}
-#skill {
-  padding: 4rem;
-  background-color: #f1f1f1;
-}
-.skill-info h3 {
-  margin: 10px auto;
-}
-.contact-label {
-  margin-top: 0.8rem;
-  text-align: center;
-}
-.contact-div {
-  padding: 6% 15%;
-}
-.contact-div h3 {
-  text-align: center;
-  padding-bottom: 1rem;
-}
-.contact-div button {
-  margin-top: 3%;
-}
-footer {
-  padding: 7% 15%;
-  text-align: center;
-  background-color: #f1f1f1;
-}
-footer i {
-  margin: 10px;
-}
-footer p {
-  padding-top: 1rem;
-}
-footer p span {
-  border-bottom: 1px solid black;
-  cursor: pointer;
-}
-/* Progress bar  */
-/* Animation of progress bar */
-.Python {
-  animation: Python 1s linear forwards;
-}
-@keyframes Python {
-  100% {
-    width: 70%;
-  }
-}
-.web {
-  animation: web 1s linear forwards;
-}
-@keyframes web {
-  100% {
-    width: 85%;
-  }
-}
-.c {
-  animation: c 1s linear forwards;
-}
-@keyframes c {
-  100% {
-    width: 90%;
-  }
-}
-
-/* Animation */
-.l-1:hover {
-  color: #fd5949;
-}
-.l-2:hover {
-  color: rgb(19, 129, 255);
-}
-.l-3:hover {
-  color: rgb(19, 129, 255);
-}
-.l-4:hover {
-  color: rgb(226, 219, 0);
-}
-.l-5:hover {
-  color: rgb(19, 129, 255);
-}
-.credit:hover {
-  color: rgb(202, 8, 202);
-}
-
-/* Navbar css */
-
-/* About */
 .about-row {
+  margin: 0px;
   padding: 7% 15%;
 }
 .about-rt-div {
@@ -146,33 +33,4 @@ footer p span {
 .about-img {
   width: 300px;
   border-radius: 100%;
-  /* height: ; */
-}
-
-/* Hover line animation */
-.hover-underline-animation {
-  /* display: inline-block; */
-  width: 15%;
-  margin: auto;
-  position: relative;
-  cursor: pointer;
-  padding-bottom: 2px;
-}
-
-.hover-underline-animation::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #343a40;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.hover-underline-animation:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
 }
