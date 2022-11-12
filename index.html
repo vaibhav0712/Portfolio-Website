@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- font awsome -->
+    <script
+      src="https://kit.fontawesome.com/05a7697907.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">THE</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="container-fluid">
+        <h1 class="hello">Hello !</h1>
+        <div class="info">
+          <h1>I'm vaibhav</h1>
+          <h3><span class="typing-text"></span></h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="row about-row">
+        <div class="col-md-5 img-div">
+          <img src="/images/pr.png" class="about-img" alt="" />
+        </div>
+        <div
+          class="col-md-7 about-rt-div"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          <h1>About Me</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicingelit. Mollitia
+            dolorum eum iure in obcaecati, nemo cumque beatae sit itaque.
+            Numquam ratione incidunt deserunt quod quaerat ducimus accusamus
+            consequatur neque praesentium.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
+            iste, itaque aliquid ab cumque soluta enim voluptatibus voluptatum
+            fuga qui nostrum doloribus saepe, nisi quas labore ipsam dolorum aut
+            sit.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+            laborum impedit qui, ipsum eius ab!
+          </p>
+        </div>
+      </div>
+    </section>
+    <p
+      style="background-color: #f1f1f1"
+      class="pro-title"
+      data-aos="fade-right"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
+      PROJECTS
+    </p>
+    <section class="Project">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+        data-interval="5000"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h4 class="hover-underline-animation">Snack Game</h4>
+            <img src="images/snack.png" alt="dog-profile" class="img-pro" />
+            <em
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+              sapiente quo incidunt labore hic a.</em
+            >
+          </div>
+          <div class="carousel-item">
+            <h4 class="hover-underline-animation">To-do list</h4>
+            <img
+              src="images/to-do-list.png"
+              alt="dog-profile"
+              class="img-pro"
+            />
+            <em
+              >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
+              voluptatibus maiores unde dolorum harum distinctio.</em
+            >
+          </div>
+          <div class="carousel-item">
+            <h4 class="hover-underline-animation">Calculator</h4>
+            <img src="images/cal.png" alt="dog-profile" class="img-pro" />
+            <em
+              >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
+              voluptatibus maiores unde dolorum harum distinctio.</em
+            >
+          </div>
+          <div class="carousel-item">
+            <h4 class="hover-underline-animation">Ping-Pong</h4>
+            <img src="images/png.png" alt="dog-profile" class="img-pro" />
+            <em
+              >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
+              voluptatibus maiores unde dolorum harum distinctio.</em
+            >
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+          <i class="fa-solid fa-chevron-left" style="color: black"></i>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+          <i class="fa-solid fa-chevron-right" style="color: black"></i>
+        </a>
+      </div>
+    </section>
+
+    <section id="skill">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 skill-info">
+            <h3>My Skill</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              reiciendis nulla odio mollitia cumque incidunt tempore possimus
+              vitae dignissimos impedit.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Inventore excepturi vero minima deleniti, dolorum velit.
+              Laboriosam dolor sapiente eius odio.
+            </p>
+          </div>
+          <div class="col-md-6 skill-bar">
+            <p><i class="fa-solid fa-code"></i> Web development</p>
+            <div style="background-color: #9e9e9e; text-align: center">
+              <div style="width: 0%" class="bg-dark webT">85%</div>
+            </div>
+
+            <p><i class="fa-brands fa-python"></i> Python / Automation</p>
+            <div style="background-color: #9e9e9e; text-align: center">
+              <div style="width: 0%" class="bg-dark pythonT">70%</div>
+            </div>
+
+            <p><i class="fa-solid fa-code"></i> C / C++ / Competitive</p>
+            <div style="background-color: #9e9e9e; text-align: center">
+              <div style="width: 0%" class="bg-dark cT">90%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="contact-div">
+        <h3>Contact Me</h3>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Name</label>
+            <input
+              type="Name"
+              class="form-control"
+              id="exampleInputName1"
+              placeholder="Name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Subject</label>
+            <input
+              type="Subject"
+              class="form-control"
+              id="exampleInputSubject1"
+              placeholder="Subject"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Message</label>
+            <input
+              type="Message"
+              class="form-control"
+              id="exampleInputMessage1"
+              placeholder="Message"
+            />
+          </div>
+          <button type="submit" class="btn btn-dark btn-block">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="medial-log">
+        <i class="fa-brands l-1 fa-instagram"></i>
+        <i class="fa-brands l-2 fa-linkedin-in"></i>
+        <i class="fa-brands l-3 fa-twitter"></i>
+        <i class="fa-brands l-4 fa-snapchat"></i>
+        <i class="fa-brands l-5 fa-facebook"></i>
+      </div>
+      <p>Created By <span class="credit">vaibhav</span></p>
+    </footer>
+
+    <!-- Bootstrap script -->
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script>
+      var type = new Typed(".typing-text", {
+        strings: ["a Programmer.", "a Student.", "a learner. ", "a explorer."],
+        typeSpeed: 130,
+        loop: true,
+      });
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
