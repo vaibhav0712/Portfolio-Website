@@ -68,7 +68,9 @@ footer {
 }
 footer i {
   margin: 10px;
+  /* text-decoration: none; */
 }
+
 footer p {
   padding-top: 1rem;
 }

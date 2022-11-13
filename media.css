@@ -47,3 +47,31 @@
     margin-bottom: 6px;
   }
 }
+
+/*** Contact section ***/
+@media (max-width: 728px) {
+  .contact-div {
+    /* color: red; */
+    padding: 5% 7%;
+  }
+}
+
+/******* footer *******/
+@media (max-width: 728px) {
+}
+
+/******* about me *******/
+@media (max-width: 728px) {
+  .about-rt-div {
+    /* color: red; */
+    border: 0px;
+    padding-left: 0px;
+  }
+  .about-rt-div p {
+    border-left: 2px solid black;
+    padding-left: 12px;
+  }
+  .about-rt-div h1 {
+    padding-left: 12px;
+  }
+}
