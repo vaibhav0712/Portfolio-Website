@@ -1,9 +1,9 @@
-/******** hero *********/
+/* ******* hero ******** */
 
 @media (max-width: 728px) {
   .hero {
-    /* color: red; */
     padding: 15% 3%;
+    min-height: 0;
   }
   .hello {
     padding-top: 5rem;
@@ -51,19 +51,13 @@
 /*** Contact section ***/
 @media (max-width: 728px) {
   .contact-div {
-    /* color: red; */
     padding: 5% 7%;
   }
-}
-
-/******* footer *******/
-@media (max-width: 728px) {
 }
 
 /******* about me *******/
 @media (max-width: 728px) {
   .about-rt-div {
-    /* color: red; */
     border: 0px;
     padding-left: 0px;
   }
