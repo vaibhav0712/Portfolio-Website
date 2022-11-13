@@ -18,21 +18,20 @@
 }
 
 /******* skill bar animation ********/
-
-.Python {
-  animation: Python 1s linear forwards;
-}
-@keyframes Python {
-  100% {
-    width: 70%;
-  }
-}
 .web {
   animation: web 1s linear forwards;
 }
 @keyframes web {
   100% {
-    width: 85%;
+    width: 90%;
+  }
+}
+.python {
+  animation: python 1s linear forwards;
+}
+@keyframes python {
+  100% {
+    width: 80%;
   }
 }
 .c {
@@ -40,7 +39,7 @@
 }
 @keyframes c {
   100% {
-    width: 90%;
+    width: 95%;
   }
 }
 

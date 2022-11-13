@@ -2,7 +2,7 @@
 
 @media (max-width: 728px) {
   .hero {
-    color: red;
+    /* color: red; */
     padding: 15% 3%;
   }
   .hello {
@@ -20,5 +20,30 @@
   }
   .col-md-7 {
     padding-top: 1rem;
+  }
+}
+
+/**** projects ****/
+@media (max-width: 728px) {
+  .pro-title {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+  }
+}
+
+/****************/
+@media (max-width: 728px) {
+  #skill {
+    padding: 1rem;
+  }
+  .skill-info {
+    padding: 8px;
+  }
+  .skill-bar {
+    padding: 8px;
+  }
+  .skill-bar p {
+    margin-bottom: 6px;
   }
 }

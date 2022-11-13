@@ -8,7 +8,7 @@ const lazyLoad = function (entries) {
   console.log(entry);
 
   if (entry.isIntersecting) {
-    web.classList.add("Python");
+    web.classList.add("python");
     python.classList.add("web");
     c.classList.add("c");
   }
@@ -18,7 +18,7 @@ const lazyLoad = function (entries) {
 
 const secObserver = new IntersectionObserver(lazyLoad, {
   root: null,
-  threshold: 0.2,
+  threshold: 0.4,
 });
 
 secObserver.observe(skillbar);

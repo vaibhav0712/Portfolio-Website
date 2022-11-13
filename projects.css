@@ -1,7 +1,7 @@
 /********* Projects ***********/
 
 .carousel-item {
-  padding: 3% 15% 7%;
+  padding: 3% 15% 6%;
   text-align: center;
 }
 .pro-title {
@@ -16,6 +16,9 @@
   width: 100px;
   height: 100px;
   margin-right: 2rem;
+}
+.p-name {
+  font-size: 24px;
 }
 
 /***** Hover line animation *****/
