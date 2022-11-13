@@ -30,6 +30,12 @@
     letter-spacing: 2px;
     font-size: 1.5rem;
   }
+  .img-pro {
+    margin: auto;
+  }
+  .p-detail {
+    /* text-align: left; */
+  }
 }
 
 /****************/

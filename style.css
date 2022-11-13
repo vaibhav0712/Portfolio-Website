@@ -3,7 +3,9 @@ body {
 }
 
 /********* hero *********/
-
+html {
+  scroll-behavior: smooth;
+}
 .hero {
   background-image: url("images/hero.jpg");
   background-repeat: no-repeat;

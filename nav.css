@@ -14,3 +14,10 @@
   background-color: #f1f1f1;
   font-weight: 500;
 }
+.navbar-brand {
+  font-family: "Abril Fatface", cursive;
+}
+.nav-link {
+  font-weight: 700;
+  color: black;
+}

@@ -35,12 +35,16 @@
       href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <!------------- Navbar ------------->
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">THE</a>
+      <a class="navbar-brand" href="#">V/AIBH/AV</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -56,13 +60,13 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item e">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Project</a>
+            <a class="nav-link" href="#Project">Project</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
         </ul>
       </div>
@@ -80,7 +84,7 @@
     </section>
 
     <!------------- about ------------->
-    <section class="about">
+    <section id="about" class="about">
       <div class="row about-row">
         <div class="col-md-5 col-sm-12 img-div">
           <img src="/images/pr.png" class="about-img" alt="" />
@@ -115,6 +119,7 @@
 
     <!------------- project ------------->
     <p
+      id="Project"
       class="pro-title"
       data-aos="fade-right"
       data-aos-easing="linear"
@@ -127,44 +132,54 @@
         id="carouselExampleIndicators"
         class="carousel slide"
         data-ride="carousel"
-        data-interval="5000"
+        data-interval="3000"
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <p class="p-name">Snack Game</p>
-            <img src="images/snack.png" alt="dog-profile" class="img-pro" />
-            <em
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
-              sapiente quo incidunt labore hic a.</em
-            >
+            <p class="p-name snack">Snack game</p>
+            <img
+              src="images/snack.png"
+              alt="dog-profile"
+              class="img-pro snack"
+            />
+            <p class="p-detail">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
+              voluptatibus maiores unde dolorum harum distinctio.
+            </p>
           </div>
+
           <div class="carousel-item">
-            <p class="p-name">Todo list</p>
+            <p class="p-name todo">Todo list</p>
             <img
               src="images/to-do-list.png"
               alt="dog-profile"
-              class="img-pro"
+              class="img-pro todo"
             />
-            <em
-              >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-              voluptatibus maiores unde dolorum harum distinctio.</em
-            >
+            <p class="p-detail">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
+              voluptatibus maiores unde dolorum harum distinctio.
+            </p>
+          </div>
+
+          <div class="carousel-item">
+            <p class="p-name cal">Calculator</p>
+            <img src="images/cal.png" alt="dog-profile" class="img-pro cal" />
+            <p class="p-detail">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
+              voluptatibus maiores unde dolorum harum distinctio.
+            </p>
           </div>
           <div class="carousel-item">
-            <p class="p-name">Calculator</p>
-            <img src="images/cal.png" alt="dog-profile" class="img-pro" />
-            <em
-              >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-              voluptatibus maiores unde dolorum harum distinctio.</em
-            >
-          </div>
-          <div class="carousel-item">
-            <p class="p-name">Ping Pong</p>
-            <img src="images/png.png" alt="dog-profile" class="img-pro" />
-            <em
-              >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-              voluptatibus maiores unde dolorum harum distinctio.</em
-            >
+            <p class="p-name pingpong">Ping Pong</p>
+            <img
+              src="images/png.png"
+              alt="dog-profile"
+              class="img-pro pingpong"
+            />
+            <p class="p-detail">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
+              voluptatibus maiores unde dolorum harum distinctio.
+            </p>
           </div>
         </div>
         <a
@@ -228,10 +243,14 @@
 
     <!------------- contact ------------->
 
-    <section class="contact">
+    <section id="contact" class="contact">
       <div class="contact-div">
         <h3 class="">Contact Me</h3>
-        <form>
+        <form
+          action="mailto:saneparavaibhav73@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
           <div class="form-group">
             <label for="exampleInputPassword1">Name</label>
             <input
